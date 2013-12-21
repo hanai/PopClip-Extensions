@@ -1,5 +1,4 @@
 # Zhihu Search PopClip Extension
-===
 
 Search for question on Zhihu.
 
