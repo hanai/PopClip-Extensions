@@ -2,46 +2,48 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-        <key>Actions</key>
-        <array>
-                <dict>
-                        <key>Image File</key>
-                        <string>Baidu.png</string>
-                        <key>Regular Expression</key>
-                        <string>(?s)^.{1,}$</string>
-                        <key>Title</key>
-                        <string>Zhihu</string>
-                        <key>URL</key>
-                        <string>http://www.zhihu.com/search?q={popclip text}&type=question</string>
-                </dict>
-        </array>
-        <key>Apps</key>
-        <array>
-                <dict>
-                        <key>Link</key>
-                        <string>http://www.zhihu.com/</string>
-                        <key>Name</key>
-                        <string>Zhihu</string>
-                </dict>
-        </array>
-        <key>Credits</key>
-        <array>
-                <dict>
-                        <key>Link</key>
-                        <string>mailto:ihanai1991@gmail.com</string>
-                        <key>Name</key>
-                        <string>Hanai</string>
-                </dict>
-        </array>
-        <key>Extension Description</key>
-        <string>Search the web using Baidu.</string>
-        <key>Extension Identifier</key>
-        <string>com.snowzjx.popclip.extension.baidu-search</string>
-        <key>Extension Image File</key>
-        <string>Baidu.png</string>
-        <key>Extension Name</key>
-        <string>Baidu</string>
-        <key>Version</key>
-        <integer>2</integer>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>zhihu.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,}$</string>
+			<key>Title</key>
+			<string>Zhihu</string>
+			<key>URL</key>
+			<string>http://www.zhihu.com/search?q={popclip text}&amp;type=question</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>http://www.zhihu.com/</string>
+			<key>Name</key>
+			<string>Zhihu</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>mailto:ihanai1991@gmail.com</string>
+			<key>Name</key>
+			<string>Hanai</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Search for question on Zhihu.</string>
+	<key>Extension Identifier</key>
+	<string>com.hanai.popclip.extension.zhihu-search</string>
+	<key>Extension Image File</key>
+	<string>zhihu.png</string>
+	<key>Extension Name</key>
+	<string>Zhihu</string>
+	<key>Preserve Image Color</key>
+	<true/>
+	<key>Version</key>
+	<integer>1</integer>
 </dict>
 </plist>
